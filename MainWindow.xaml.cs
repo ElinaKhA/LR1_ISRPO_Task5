@@ -24,5 +24,12 @@ namespace LR1_ISRPO_Task5
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            NewWind my = new NewWind();
+            my.Show();
+            this.Close();
+        }
     }
 }

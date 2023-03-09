@@ -8,6 +8,6 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label Content="Лр 1, 5 задание" HorizontalAlignment="Left" Margin="355,141,0,0" VerticalAlignment="Top"/>
-        <Button Height="29" Width="150"  Canvas.Bottom="10" >Переход</Button>
+        <Button Height="29" Width="150"  Canvas.Bottom="10" Click="Button_Click" >Переход</Button>
     </Grid>
 </Window>
